@@ -1,0 +1,94 @@
+
+@font-face {
+  font-family: "Kimberley";
+  src: url(http://www.princexml.com/fonts/larabie/kimberle.ttf) format("truetype");
+}  
+
+@media screen and (max-width: 600px) {
+  html { background: #ee00f5; }
+  p{color: black; font-size: 30px;}
+}
+
+@media screen and (min-width: 750px){
+	html{background: #b600bb;}
+	p{color: slategrey; font-size: 30px;}
+}
+
+@media screen and (min-width: 900px){
+	html{background: #9d00a2;}
+	p{color: darkslategray; font-size: 30px;}
+}
+
+@media screen and (min-width: 1100px){
+	html{background: #8a018e;}
+	p{color: darkgrey; font-size: 30px;}
+}
+
+@media screen and (max-width: 600px) {
+  .p-2 bd-highlight{display: flex;
+  	flex-direction: row;}
+}
+
+
+p{
+	font-size: 30px;
+	color: slategrey;
+  font-family: Kimberley;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+a{
+  font-size: 25px;
+  color: black;
+  width: 50%;
+}
+
+footer{
+  font-size: 25px;
+  color: black;
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
